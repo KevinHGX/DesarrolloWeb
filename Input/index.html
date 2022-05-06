@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Input</title>
+	<script src="parte2.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 id="titulo"> <span>Formulario</span></h1>
+	<hr>
+	<form>
+		<label for="encabezado">Ingrese encabezado</label><br>
+		<input type="text" id="encabezado" name="encabezado"><br>
+
+		<label for="contenido">Ingrese contenido</label><br>
+		<input type="text" id="contenido" name="contenido"><br>
+
+		<label for="pagina" >Ingresa pagina</label><br>
+		<input type="text" id="pagina" name="pagina"><br>
+
+		<label for="url" >Ingresa URL</label><br>
+		<input type="text" id="url" name="url"><br>
+	</form>
+	<hr>
+	<button class="boton" onclick="save()">save</button>
+	<button class="boton" onclick="show()">show</button>
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+	font-size: 15px;
+    font-family: "JetBrains Mono","Open Sans", sans-serif;
+}
+
+span{
+	font-size: 40px;
+	color: #EA1B64;
+}
+
+.boton{
+	background-color: #40A7C9;
+	border-radius: 5px;
+	margin: 10px;
+	width: 110px;
+	padding: .7em;
+	border: none;
+}
+
+.boton:hover{
+	background-color: #EA1B64;
+	width: 110px;
+	padding: .7em;
+}
